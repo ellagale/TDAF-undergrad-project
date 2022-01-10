@@ -1,0 +1,3 @@
+[submodule "graphs_and_topology_for_chemistry"]
+	path = graphs_and_topology_for_chemistry
+	url = https://github.com/ellagale/graphs_and_topology_for_chemistry.git
