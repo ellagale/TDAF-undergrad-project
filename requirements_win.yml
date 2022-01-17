@@ -16,3 +16,4 @@ dependencies:
     - tensorboard
     - tensorflow-estimator
     - tensorflow-probability
+    - pyGPGO
