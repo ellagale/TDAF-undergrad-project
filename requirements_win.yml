@@ -1,4 +1,4 @@
-name: tdaf-tf2h
+name: tdaf-tf2p7h2
 channels:
   - conda-forge
   - defaults
@@ -6,12 +6,13 @@ dependencies:
   - python=3.7
   - deepchem=2.5
   - h5py
-  - jupyter
-  - tensorflow-gpu
-  - tensorboard
-  - tensorflow-estimator
+  - jupyter  
   - rdkit
   - scikit-learn
   - pip
   - pip:
     - giotto-tda
+    - tensorflow-gpu==2.7
+    - tensorboard
+    - tensorflow-estimator
+    - tensorflow-probability
